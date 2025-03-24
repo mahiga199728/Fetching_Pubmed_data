@@ -11,4 +11,4 @@ Use Poetry to install dependencies:
 ```bash
 pip install poetry
 poetry install    #NOTE : pyproject.toml should be in same directory where you will be running this command"
-poetry run python fetch_papers.py "Diabetes treatment" --file results.csv
+poetry run python fetch_papers.py "Diabetes treatment" --file results.csv #eg results will be written to file results.csv"
