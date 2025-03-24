@@ -10,3 +10,4 @@ A command-line tool to fetch research papers from PubMed.
 Use Poetry to install dependencies:
 ```bash
 poetry install
+poetry run python fetch_papers.py "Diabetes treatment" --file results.csv
