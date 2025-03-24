@@ -1,0 +1,22 @@
+[project]
+name = "fetch-papers"
+version = "0.1.0"
+description = "Fetch research papers from PubMed"
+authors = [
+    {name = "Mahima"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "^3.8"
+dependencies = [
+    "biopython",
+    "pandas"
+]
+packages = [
+    { include = "fetch_papers" }
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
